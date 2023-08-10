@@ -1,0 +1,65 @@
+@font-face {
+  font-family: 'mso';
+  src: url('Cocogoose Pro Semilight-trial.ttf') format('truetype');
+  font-style: normal;
+  font-weight: normal;
+}
+* {
+}
+
+h1 {
+  font-family: 'mso', sans-serif;
+  color: #15b6ff;
+  text-align: center;
+  margin-top: 60px;
+}
+
+#bt,#ev {
+  color: white;
+  background: #15b6ff;
+  border-radius: 5px;
+  text-decoration: none;
+  width: 150px;
+  display: block;
+  margin: 0 auto;
+  padding: 10px 20px;
+  text-align: center;
+  font-family: mso;
+}
+
+#cot {
+  display: flex;
+  justify-content: center;
+}
+/* Estilos para pantallas pequeñas (móviles) */
+@media (max-width: 767px) {
+    body {
+        font-size: 18px;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+}
+
+/* Estilos para pantallas medianas (tablets) */
+@media (min-width: 768px) and (max-width: 1023px) {
+    body {
+        font-size: 20px;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+}
+
+/* Estilos para pantallas grandes (escritorio) */
+@media (min-width: 1024px) {
+    body {
+        font-size: 24px;
+    }
+
+    h1 {
+        font-size: 56px;
+    }
+}

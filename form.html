@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Formulario de Pedido</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Realizar un Pedido</h1>
+  <form action="https://formspree.io/f/mknljjdl" method="post">
+    <label for="nombre">Nombre del Pedido:</label>
+    <input type="text" id="nombre" name="nombre" required><br><br>
+
+    <label> Tipo de masaje:</label><br>
+    <label>
+      <input type="radio" name="tiempo" value="5min">
+      5 minutos (35 céntimos)
+    </label><br>
+    <label>
+      <input type="radio" name="tiempo" value="15min">
+      15 minutos (1 euro)
+    </label><br>
+    <label>
+      <input type="radio" name="tiempo" value="30min">
+      30 minutos (1,80 euros)
+    </label><br><br>
+
+    <input type="submit" value="Enviar Pedido" id="ev">
+  </form>
+</body>
+</html>
