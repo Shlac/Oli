@@ -6,7 +6,9 @@
 }
 * {
 }
-
+h2 {
+  font-family: 'mso';
+}
 h1 {
   font-family: 'mso', sans-serif;
   color: #15b6ff;
